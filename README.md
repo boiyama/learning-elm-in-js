@@ -1,5 +1,7 @@
 # Learning Elm in JavaScript
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/boiyaa/learning-elm-in-js.svg)](https://greenkeeper.io/)
+
 ## Set-up
 
 * Elm
