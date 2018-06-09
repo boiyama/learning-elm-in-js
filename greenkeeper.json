@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "elm/elm-package.json",
+        "js/package.json"
+      ]
+    }
+  }
+}
