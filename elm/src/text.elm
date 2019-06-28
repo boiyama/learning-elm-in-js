@@ -6,11 +6,7 @@ import Html.Events exposing (onClick)
 
 view : Int -> Html.Html Msg
 view model =
-    div []
-        [ button [ onClick Decrement ] [ text "-" ]
-        , div [] [ text (toString model) ]
-        , button [ onClick Increment ] [ text "+" ]
-        ]
+    div [] [ text "+" ]
 
 
 type Msg

@@ -10,7 +10,7 @@ const button = attributes => children => ({
 
 const text = value => ({ name: "text", value });
 
-const onClick = msg => ({ name: "onclick", msg });
+const onClick = Msg => ({ name: "onclick", msg: new Msg() });
 
 export default {
   beginnerProgram,
